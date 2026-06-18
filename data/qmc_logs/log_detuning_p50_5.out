@@ -1,0 +1,492 @@
+Job info:
+  Nodes: 1
+  Tasks: 24
+  CPUs/task: 4
+  JULIA_NUM_THREADS: 4,0
+
+complied.
+complied.
+complied.
+complied.
+complied.
+complied.
+complied.
+complied.
+complied.
+complied.
+complied.
+complied.
+t = 10.0
+wall_s = 20.157
+VCABMStepStats
+  totals: attempts=10, accepts=9, rejects=1, reject_ratio=0.1, accepted_h_sum=10.0, attempts_per_time=1.0
+  last:   h=1.553448640921708, E=0.3521929530202688, E_raw=0.3521929530202688, guard_relax=1.0, k=2, guard_active=false
+  window: attempts=10, accepts=9, rejects=1, accepted_h_sum=10.0, attempts_per_time=1.0, t_start=0.0
+  guard:  active=false, hold_until=-Inf, cooldown_until=-Inf, attempts=0, accepts=0, rejects=0, last_attempts_per_time=NaN, last_reject_ratio=NaN
+FlowStats
+  fixed_step: emit_init_re=0, emit_init_im=0, emit_noninit_re=0, emit_noninit_im=0, keep_noninit_re=0, keep_noninit_im=0, drop_noninit_re=0, drop_noninit_im=0
+  predicted:  emit_init_re=0, emit_init_im=-1362, emit_noninit_re=-1495, emit_noninit_im=0, keep_noninit_re=-1971, keep_noninit_im=-2, drop_noninit_re=476, drop_noninit_im=2
+  true_step:  emit_init_re=-6, emit_init_im=-987, emit_noninit_re=-3811, emit_noninit_im=-2, keep_noninit_re=-5225, keep_noninit_im=-3, drop_noninit_re=1414, drop_noninit_im=1
+  apply:      total_re=-1434, total_im=117, diag_re=-140, diag_im=-1, new_states=171, removed_states=3
+  mask:       total=0.004914584275262381, kept=0.004866012377763368, kept_frac=0.9901167840902636
+  snapshot:   t=10.0, diag_re=9999860, diag_im=-1, n_states=169, state_mem_bytes=56342546
+
+t = 20.0
+wall_s = 23.137
+VCABMStepStats
+  totals: attempts=19, accepts=15, rejects=4, reject_ratio=0.21052631578947367, accepted_h_sum=20.0, attempts_per_time=0.95
+  last:   h=0.20594094812746988, E=0.05455830824386999, E_raw=0.05455830824386999, guard_relax=1.0, k=3, guard_active=false
+  window: attempts=19, accepts=15, rejects=4, accepted_h_sum=20.0, attempts_per_time=0.95, t_start=0.0
+  guard:  active=false, hold_until=-Inf, cooldown_until=-Inf, attempts=0, accepts=0, rejects=0, last_attempts_per_time=NaN, last_reject_ratio=NaN
+FlowStats
+  fixed_step: emit_init_re=0, emit_init_im=0, emit_noninit_re=0, emit_noninit_im=0, keep_noninit_re=0, keep_noninit_im=0, drop_noninit_re=0, drop_noninit_im=0
+  predicted:  emit_init_re=2570, emit_init_im=-26200, emit_noninit_re=-43417, emit_noninit_im=885, keep_noninit_re=-69841, keep_noninit_im=-499, drop_noninit_re=26448, drop_noninit_im=1384
+  true_step:  emit_init_re=-1762, emit_init_im=-24530, emit_noninit_re=-95995, emit_noninit_im=1232, keep_noninit_re=-141865, keep_noninit_im=257, drop_noninit_re=45870, drop_noninit_im=975
+  apply:      total_re=-53960, total_im=1717, diag_re=-15373, diag_im=-30, new_states=24592, removed_states=72
+  mask:       total=0.12237315439059951, kept=0.12116459548534325, kept_frac=0.9901239866596991
+  snapshot:   t=20.0, diag_re=9989061, diag_im=-7, n_states=20657, state_mem_bytes=6866643474
+
+t = 30.0
+wall_s = 25.669
+VCABMStepStats
+  totals: attempts=30, accepts=26, rejects=4, reject_ratio=0.13333333333333333, accepted_h_sum=30.0, attempts_per_time=1.0
+  last:   h=0.06870108152769205, E=0.04924447229556293, E_raw=0.04924447229556293, guard_relax=1.0, k=3, guard_active=false
+  window: attempts=30, accepts=26, rejects=4, accepted_h_sum=30.0, attempts_per_time=1.0, t_start=0.0
+  guard:  active=false, hold_until=-Inf, cooldown_until=-Inf, attempts=0, accepts=0, rejects=0, last_attempts_per_time=NaN, last_reject_ratio=NaN
+FlowStats
+  fixed_step: emit_init_re=0, emit_init_im=0, emit_noninit_re=0, emit_noninit_im=0, keep_noninit_re=0, keep_noninit_im=0, drop_noninit_re=0, drop_noninit_im=0
+  predicted:  emit_init_re=69740, emit_init_im=-630227, emit_noninit_re=-1039705, emit_noninit_im=24090, keep_noninit_re=-1671727, keep_noninit_im=-11786, drop_noninit_re=632598, drop_noninit_im=35876
+  true_step:  emit_init_re=-42481, emit_init_im=-590521, emit_noninit_re=-2305212, emit_noninit_im=29585, keep_noninit_re=-3401171, keep_noninit_im=5124, drop_noninit_re=1095959, drop_noninit_im=24461
+  apply:      total_re=-1288385, total_im=40759, diag_re=-373792, diag_im=-729, new_states=596572, removed_states=1728
+  mask:       total=2.9423617453035993, kept=2.913303233544985, kept_frac=0.9901240859302921
+  snapshot:   t=30.0, diag_re=9990332, diag_im=-16, n_states=27021, state_mem_bytes=8985616650
+
+t = 40.0
+wall_s = 29.38
+VCABMStepStats
+  totals: attempts=46, accepts=42, rejects=4, reject_ratio=0.08695652173913043, accepted_h_sum=40.0, attempts_per_time=1.15
+  last:   h=0.30791475721380124, E=0.12790150952126358, E_raw=0.12790150952126358, guard_relax=1.0, k=3, guard_active=false
+  window: attempts=46, accepts=42, rejects=4, accepted_h_sum=40.0, attempts_per_time=1.15, t_start=0.0
+  guard:  active=false, hold_until=-Inf, cooldown_until=-Inf, attempts=0, accepts=0, rejects=0, last_attempts_per_time=NaN, last_reject_ratio=NaN
+FlowStats
+  fixed_step: emit_init_re=0, emit_init_im=0, emit_noninit_re=0, emit_noninit_im=0, keep_noninit_re=0, keep_noninit_im=0, drop_noninit_re=0, drop_noninit_im=0
+  predicted:  emit_init_re=1669205, emit_init_im=-15127474, emit_noninit_re=-24954156, emit_noninit_im=576210, keep_noninit_re=-40110655, keep_noninit_im=-282757, drop_noninit_re=15170323, drop_noninit_im=858967
+  true_step:  emit_init_re=-1020241, emit_init_im=-14172226, emit_noninit_re=-55325451, emit_noninit_im=710445, keep_noninit_re=-81616449, keep_noninit_im=123794, drop_noninit_re=26290998, drop_noninit_im=586651
+  apply:      total_re=-30911126, total_im=978503, diag_re=-8971816, diag_im=-17510, new_states=14318194, removed_states=41473
+  mask:       total=70.62454521797135, kept=69.9270631821354, kept_frac=0.9901240845702683
+  snapshot:   t=40.0, diag_re=9990522, diag_im=-30, n_states=27486, state_mem_bytes=9140732764
+
+t = 50.0
+wall_s = 33.939
+VCABMStepStats
+  totals: attempts=58, accepts=54, rejects=4, reject_ratio=0.06896551724137931, accepted_h_sum=50.0, attempts_per_time=1.16
+  last:   h=0.12691700556513297, E=0.08711469238381303, E_raw=0.08711469238381303, guard_relax=1.0, k=3, guard_active=false
+  window: attempts=58, accepts=54, rejects=4, accepted_h_sum=50.0, attempts_per_time=1.16, t_start=0.0
+  guard:  active=false, hold_until=-Inf, cooldown_until=-Inf, attempts=0, accepts=0, rejects=0, last_attempts_per_time=NaN, last_reject_ratio=NaN
+FlowStats
+  fixed_step: emit_init_re=0, emit_init_im=0, emit_noninit_re=0, emit_noninit_im=0, keep_noninit_re=0, keep_noninit_im=0, drop_noninit_re=0, drop_noninit_im=0
+  predicted:  emit_init_re=40058360, emit_init_im=-363058818, emit_noninit_re=-598899132, emit_noninit_im=13835263, keep_noninit_re=-962645816, keep_noninit_im=-6785070, drop_noninit_re=364078460, drop_noninit_im=20620333
+  true_step:  emit_init_re=-24487069, emit_init_im=-340129132, emit_noninit_re=-1327809895, emit_noninit_im=17047825, keep_noninit_re=-1958783766, keep_noninit_im=2971845, drop_noninit_re=630973872, drop_noninit_im=14075980
+  apply:      total_re=-741857036, total_im=23488730, diag_re=-215323831, diag_im=-420229, new_states=343637274, removed_states=995352
+  mask:       total=1694.9949827333007, kept=1678.255355554043, kept_frac=0.9901240845254516
+  snapshot:   t=50.0, diag_re=9990275, diag_im=-19, n_states=28104, state_mem_bytes=9346834960
+
+t = 60.0
+wall_s = 39.249
+VCABMStepStats
+  totals: attempts=73, accepts=69, rejects=4, reject_ratio=0.0547945205479452, accepted_h_sum=60.0, attempts_per_time=1.2166666666666666
+  last:   h=1.1183727432891502, E=0.7287794948668366, E_raw=0.7287794948668366, guard_relax=1.0, k=3, guard_active=false
+  window: attempts=73, accepts=69, rejects=4, accepted_h_sum=60.0, attempts_per_time=1.2166666666666666, t_start=0.0
+  guard:  active=false, hold_until=-Inf, cooldown_until=-Inf, attempts=0, accepts=0, rejects=0, last_attempts_per_time=NaN, last_reject_ratio=NaN
+FlowStats
+  fixed_step: emit_init_re=0, emit_init_im=0, emit_noninit_re=0, emit_noninit_im=0, keep_noninit_re=0, keep_noninit_im=0, drop_noninit_re=0, drop_noninit_im=0
+  predicted:  emit_init_re=961399206, emit_init_im=-8713418647, emit_noninit_re=-14373582080, emit_noninit_im=332020678, keep_noninit_re=-23103492467, keep_noninit_im=-162844219, drop_noninit_re=8737873011, drop_noninit_im=494864897
+  true_step:  emit_init_re=-587689754, emit_init_im=-8163099386, emit_noninit_re=-31867437686, emit_noninit_im=409150153, keep_noninit_re=-47010802504, keep_noninit_im=71322234, drop_noninit_re=15143364842, drop_noninit_im=337827919
+  apply:      total_re=-17804562169, total_im=563724648, diag_re=-5167772668, diag_im=-10085521, new_states=8247294878, removed_states=23888448
+  mask:       total=40679.886957492905, kept=40278.135832275504, kept_frac=0.9901240845227226
+  snapshot:   t=60.0, diag_re=9990568, diag_im=-44, n_states=28406, state_mem_bytes=9447385868
+
+t = 70.0
+wall_s = 43.189
+VCABMStepStats
+  totals: attempts=81, accepts=77, rejects=4, reject_ratio=0.04938271604938271, accepted_h_sum=70.0, attempts_per_time=1.1571428571428573
+  last:   h=0.63285932491344, E=0.34607091309054483, E_raw=0.34607091309054483, guard_relax=1.0, k=3, guard_active=false
+  window: attempts=1, accepts=1, rejects=0, accepted_h_sum=0.63285932491344, attempts_per_time=1.5801299919800915, t_start=69.36714067508656
+  guard:  active=false, hold_until=-Inf, cooldown_until=-Inf, attempts=0, accepts=0, rejects=0, last_attempts_per_time=0.7115001991898575, last_reject_ratio=0.0
+FlowStats
+  fixed_step: emit_init_re=0, emit_init_im=0, emit_noninit_re=0, emit_noninit_im=0, keep_noninit_re=0, keep_noninit_im=0, drop_noninit_re=0, drop_noninit_im=0
+  predicted:  emit_init_re=23073582099, emit_init_im=-209122041461, emit_noninit_re=-344965971444, emit_noninit_im=7968500196, keep_noninit_re=-554483815694, keep_noninit_im=-3908260816, drop_noninit_re=209708947226, drop_noninit_im=11876761012
+  true_step:  emit_init_re=-14104564969, emit_init_im=-195914381448, emit_noninit_re=-764818500792, emit_noninit_im=9819594271, keep_noninit_re=-1128259255308, keep_noninit_im=1711734737, drop_noninit_re=363440755092, drop_noninit_im=8107859534
+  apply:      total_re=-427309492787, total_im=13529394007, diag_re=-124026544655, diag_im=-242052492, new_states=197935084812, removed_states=573322752
+  mask:       total=976317.2909115211, kept=966675.2638674013, kept_frac=0.9901240845226477
+  snapshot:   t=70.0, diag_re=9990954, diag_im=-32, n_states=36146, state_mem_bytes=12024118468
+
+t = 80.0
+wall_s = 51.667
+VCABMStepStats
+  totals: attempts=94, accepts=89, rejects=5, reject_ratio=0.05319148936170213, accepted_h_sum=80.0, attempts_per_time=1.175
+  last:   h=0.20766657070889494, E=0.21648713388450921, E_raw=0.21648713388450921, guard_relax=1.0, k=3, guard_active=false
+  window: attempts=7, accepts=6, rejects=1, accepted_h_sum=4.768827934563569, attempts_per_time=1.4678659192681949, t_start=75.23117206543644
+  guard:  active=false, hold_until=-Inf, cooldown_until=-Inf, attempts=0, accepts=0, rejects=0, last_attempts_per_time=1.1937180301455272, last_reject_ratio=0.0
+FlowStats
+  fixed_step: emit_init_re=0, emit_init_im=0, emit_noninit_re=0, emit_noninit_im=0, keep_noninit_re=0, keep_noninit_im=0, drop_noninit_re=0, drop_noninit_im=0
+  predicted:  emit_init_re=553765968272, emit_init_im=-5018929001473, emit_noninit_re=-8279183307189, emit_noninit_im=191244020938, keep_noninit_re=-13307611580705, keep_noninit_im=-93798261300, drop_noninit_re=5033014744940, drop_noninit_im=285042282238
+  true_step:  emit_init_re=-338509561798, emit_init_im=-4701945154407, emit_noninit_re=-18355644021580, emit_noninit_im=235670257862, keep_noninit_re=-27078222130433, keep_noninit_im=41081630247, drop_noninit_re=8722578122677, drop_noninit_im=194588627615
+  apply:      total_re=-10255427832168, total_im=324705453656, diag_re=-2976637073613, diag_im=-5809259836, new_states=4750442055308, removed_states=13759746049
+  mask:       total=2.3431614988265507e7, kept=2.3200206339143753e7, kept_frac=0.990124084522657
+  snapshot:   t=80.0, diag_re=9990072, diag_im=-60, n_states=55965, state_mem_bytes=18608440362
+
+t = 90.0
+wall_s = 92.815
+VCABMStepStats
+  totals: attempts=146, accepts=131, rejects=15, reject_ratio=0.10273972602739725, accepted_h_sum=90.0, attempts_per_time=1.6222222222222222
+  last:   h=0.10054465311533534, E=0.5231274171047673, E_raw=0.5231274171047673, guard_relax=1.0, k=3, guard_active=false
+  window: attempts=30, accepts=26, rejects=4, accepted_h_sum=4.493576167982237, attempts_per_time=6.676197059650818, t_start=85.50642383201786
+  guard:  active=false, hold_until=-Inf, cooldown_until=-Inf, attempts=0, accepts=0, rejects=0, last_attempts_per_time=4.012565648238417, last_reject_ratio=0.2857142857142857
+FlowStats
+  fixed_step: emit_init_re=0, emit_init_im=0, emit_noninit_re=0, emit_noninit_im=0, keep_noninit_re=0, keep_noninit_im=0, drop_noninit_re=0, drop_noninit_im=0
+  predicted:  emit_init_re=13290382941164, emit_init_im=-120454296033603, emit_noninit_re=-198700399402719, emit_noninit_im=4589856517089, keep_noninit_re=-319382678020060, keep_noninit_im=-2251158273746, drop_noninit_re=120792353931595, drop_noninit_im=6841014790770
+  true_step:  emit_init_re=-8124229744108, emit_init_im=-112846683709986, emit_noninit_re=-440535456543515, emit_noninit_im=5656086191903, keep_noninit_re=-649877331193665, keep_noninit_im=985959129894, drop_noninit_re=209341874981993, drop_noninit_im=4670127061961
+  apply:      total_re=-246130268280848, total_im=7792930887137, diag_re=-71439289775190, diag_im=-139422235981, new_states=114010609491969, removed_states=330233906847
+  mask:       total=5.623587597439287e8, kept=5.568049521647575e8, kept_frac=0.9901240845226629
+  snapshot:   t=90.0, diag_re=9987663, diag_im=23, n_states=218871, state_mem_bytes=72764435646
+
+t = 100.0
+wall_s = 134.149
+VCABMStepStats
+  totals: attempts=202, accepts=187, rejects=15, reject_ratio=0.07425742574257425, accepted_h_sum=100.0, attempts_per_time=2.02
+  last:   h=0.03549219153799754, E=0.2188995150327752, E_raw=0.2188995150327752, guard_relax=1.0, k=3, guard_active=false
+  window: attempts=21, accepts=21, rejects=0, accepted_h_sum=4.189526022414343, attempts_per_time=5.012500193971371, t_start=95.81047397758574
+  guard:  active=false, hold_until=-Inf, cooldown_until=-Inf, attempts=0, accepts=0, rejects=0, last_attempts_per_time=5.766992033664033, last_reject_ratio=0.0
+FlowStats
+  fixed_step: emit_init_re=0, emit_init_im=0, emit_noninit_re=0, emit_noninit_im=0, keep_noninit_re=0, keep_noninit_im=0, drop_noninit_re=0, drop_noninit_im=0
+  predicted:  emit_init_re=318969189931185, emit_init_im=-2890903104804773, emit_noninit_re=-4768809585699671, emit_noninit_im=110156556440946, keep_noninit_re=-7665184272549140, keep_noninit_im=-54027798563491, drop_noninit_re=2899016494391564, drop_noninit_im=164184355002846
+  true_step:  emit_init_re=-194981514520081, emit_init_im=-2708320409038905, emit_noninit_re=-10572850957071569, emit_noninit_im=135746068609778, keep_noninit_re=-15597055948715889, keep_noninit_im=23663019118575, drop_noninit_re=5024204999608550, drop_noninit_im=112083049490048
+  apply:      total_re=-5907126439468588, total_im=187030341294951, diag_re=-1714542954616588, diag_im=-3346133663627, new_states=2736254627841442, removed_states=7925613765139
+  mask:       total=1.3496610233881845e10, kept=1.3363318851981417e10, kept_frac=0.9901240845226593
+  snapshot:   t=100.0, diag_re=9983935, diag_im=-59, n_states=252246, state_mem_bytes=83853719676
+
+t = 110.0
+wall_s = 179.92
+VCABMStepStats
+  totals: attempts=267, accepts=252, rejects=15, reject_ratio=0.056179775280898875, accepted_h_sum=110.0, attempts_per_time=2.4272727272727272
+  last:   h=0.04228881098600823, E=0.2665887781761322, E_raw=0.2665887781761322, guard_relax=1.0, k=3, guard_active=false
+  window: attempts=24, accepts=24, rejects=0, accepted_h_sum=4.149005555749736, attempts_per_time=5.784518646098351, t_start=105.8509944442503
+  guard:  active=false, hold_until=-Inf, cooldown_until=-Inf, attempts=0, accepts=0, rejects=0, last_attempts_per_time=6.167268758379597, last_reject_ratio=0.0
+FlowStats
+  fixed_step: emit_init_re=0, emit_init_im=0, emit_noninit_re=0, emit_noninit_im=0, keep_noninit_re=0, keep_noninit_im=0, drop_noninit_re=0, drop_noninit_im=0
+  predicted:  emit_init_re=7655260557705069, emit_init_im=-69381674515313077, emit_noninit_re=-114451430056794039, emit_noninit_im=2643757354578521, keep_noninit_re=-183964422541195785, keep_noninit_im=-1296667165520150, drop_noninit_re=69576395865411943, drop_noninit_im=3940424520060499
+  true_step:  emit_init_re=-4679556349116179, emit_init_im=-64999689816932481, emit_noninit_re=-253748422969714346, emit_noninit_im=3257905646658487, keep_noninit_re=-374329342769196421, keep_noninit_im=567912458850640, drop_noninit_re=120580919990623483, drop_noninit_im=2689993187780081
+  apply:      total_re=-141771034547900024, total_im=4488728191080548, diag_re=-41149030910805828, diag_im=-80307207926942, new_states=65670111068207785, removed_states=190214730363483
+  mask:       total=3.23918645613197e11, kept=3.2071965244758673e11, kept_frac=0.9901240845226603
+  snapshot:   t=110.0, diag_re=9984906, diag_im=45, n_states=265276, state_mem_bytes=88196754776
+
+t = 119.99644520257338
+wall_s = 233.312
+VCABMStepStats
+  totals: attempts=337, accepts=322, rejects=15, reject_ratio=0.04451038575667656, accepted_h_sum=119.99644520257338, attempts_per_time=2.808416527932053
+  last:   h=0.15797616956543659, E=0.9641165840820936, E_raw=0.9641165840820936, guard_relax=1.0, k=3, guard_active=false
+  window: attempts=26, accepts=26, rejects=0, accepted_h_sum=4.107380408701349, attempts_per_time=6.330068660044213, t_start=115.88906479387221
+  guard:  active=false, hold_until=-Inf, cooldown_until=-Inf, attempts=0, accepts=0, rejects=0, last_attempts_per_time=6.750154875126939, last_reject_ratio=0.0
+FlowStats
+  fixed_step: emit_init_re=0, emit_init_im=0, emit_noninit_re=0, emit_noninit_im=0, keep_noninit_re=0, keep_noninit_im=0, drop_noninit_re=0, drop_noninit_im=0
+  predicted:  emit_init_re=183726253384293203, emit_init_im=-1665160188367507658, emit_noninit_re=-2746834321363002261, emit_noninit_im=63450176509886595, keep_noninit_re=-4415146140988673053, keep_noninit_im=-31120011972486310, drop_noninit_re=1669833500769915370, drop_noninit_im=94570188481456757
+  true_step:  emit_init_re=-112309352379426341, emit_init_im=-1559992555606386465, emit_noninit_re=-6089962151273120311, emit_noninit_im=78189735519803879, keep_noninit_re=-8983904226460692490, keep_noninit_im=13629899012418757, drop_noninit_re=2893942079774965856, drop_noninit_im=64559836506718721
+  apply:      total_re=-3402504829150216419, total_im=107729476585936594, diag_re=-987576741859347977, diag_im=-1927372990246670, new_states=1576082665637010540, removed_states=4565153528723793
+  mask:       total=7.774047494716729e12, kept=7.697271658742082e12, kept_frac=0.9901240845226603
+  snapshot:   t=119.99644520257338, diag_re=9983445, diag_im=-17, n_states=288775, state_mem_bytes=96013463006
+
+t = 130.0
+wall_s = 291.997
+VCABMStepStats
+  totals: attempts=408, accepts=391, rejects=17, reject_ratio=0.041666666666666664, accepted_h_sum=130.0, attempts_per_time=3.1384615384615384
+  last:   h=0.006712130803833816, E=0.09558255979015803, E_raw=0.09558255979015803, guard_relax=1.0, k=3, guard_active=false
+  window: attempts=30, accepts=29, rejects=1, accepted_h_sum=3.9326252818864327, attempts_per_time=7.628491872383367, t_start=126.0673747181134
+  guard:  active=false, hold_until=-Inf, cooldown_until=-Inf, attempts=0, accepts=0, rejects=0, last_attempts_per_time=6.83183773266064, last_reject_ratio=0.02857142857142857
+FlowStats
+  fixed_step: emit_init_re=0, emit_init_im=0, emit_noninit_re=0, emit_noninit_im=0, keep_noninit_re=0, keep_noninit_im=0, drop_noninit_re=0, drop_noninit_im=0
+  predicted:  emit_init_re=4409430081222396836, emit_init_im=-3070356373401079057, emit_noninit_re=7862952582126214430, emit_noninit_im=1522804236237259216, keep_noninit_re=4716957058529215009, keep_noninit_im=-746880287339672905, drop_noninit_re=3182515871058869196, drop_noninit_im=2269684523554944608
+  true_step:  emit_init_re=-2695424457106863704, emit_init_im=-546333187134170422, emit_noninit_re=1414860959121597578, emit_noninit_im=1876553652475295938, keep_noninit_re=5747227449458058647, keep_noninit_im=327117576298047658, drop_noninit_re=-4332366380239012878, drop_noninit_im=1549436076161254619
+  apply:      total_re=-7873139604767553952, total_im=2585507438062474276, diag_re=-5255097730914810570, diag_im=-46256951765920254, new_states=932495827869183253, removed_states=109563684689371282
+  mask:       total=1.865771398732015e14, kept=1.8473451980980997e14, kept_frac=0.9901240845226603
+  snapshot:   t=130.0, diag_re=9983177, diag_im=-188, n_states=322050, state_mem_bytes=107067750756
+
+t = 140.0
+wall_s = 374.804
+VCABMStepStats
+  totals: attempts=508, accepts=491, rejects=17, reject_ratio=0.03346456692913386, accepted_h_sum=140.0, attempts_per_time=3.6285714285714286
+  last:   h=0.10712913206432972, E=0.8799149354935947, E_raw=0.8799149354935947, guard_relax=1.0, k=3, guard_active=false
+  window: attempts=33, accepts=33, rejects=0, accepted_h_sum=3.7556675265452557, attempts_per_time=8.786720274559519, t_start=136.2443324734547
+  guard:  active=false, hold_until=-Inf, cooldown_until=-Inf, attempts=0, accepts=0, rejects=0, last_attempts_per_time=9.017117463455609, last_reject_ratio=0.0
+FlowStats
+  fixed_step: emit_init_re=0, emit_init_im=0, emit_noninit_re=0, emit_noninit_im=0, keep_noninit_re=0, keep_noninit_im=0, drop_noninit_re=0, drop_noninit_im=0
+  predicted:  emit_init_re=-4854142492920379220, emit_init_im=98423333212305231, emit_noninit_re=4243421233933728543, emit_noninit_im=-346186477724853787, keep_noninit_re=2526504962443944095, keep_noninit_im=521617177557401204, drop_noninit_re=2593404610574658903, drop_noninit_im=-867803655809955301
+  true_step:  emit_init_re=9096789324272858492, emit_init_im=5334747582489468337, emit_noninit_re=-2936825128500647387, emit_noninit_im=8143799511988022530, keep_noninit_re=8806250271026639451, keep_noninit_im=7850821831153149143, drop_noninit_re=6703671316521021233, drop_noninit_im=292977680451025606
+  apply:      total_re=-4487909777326296782, total_im=6711946292370720101, diag_re=3004862974011394064, diag_im=-1110166842382085931, new_states=3933155795150892211, removed_states=2629528432544912563
+  mask:       total=4.477851356956836e15, kept=4.433628475435439e15, kept_frac=0.9901240845226602
+  snapshot:   t=140.0, diag_re=9980027, diag_im=-27, n_states=366010, state_mem_bytes=121671702356
+
+t = 150.0
+wall_s = 455.771
+VCABMStepStats
+  totals: attempts=601, accepts=584, rejects=17, reject_ratio=0.028286189683860232, accepted_h_sum=150.0, attempts_per_time=4.006666666666667
+  last:   h=0.01874229089844448, E=0.23328641352950893, E_raw=0.23328641352950893, guard_relax=1.0, k=3, guard_active=false
+  window: attempts=34, accepts=34, rejects=0, accepted_h_sum=3.599269968228905, attempts_per_time=9.446360039708386, t_start=146.40073003177096
+  guard:  active=false, hold_until=-Inf, cooldown_until=-Inf, attempts=0, accepts=0, rejects=0, last_attempts_per_time=9.21678185796858, last_reject_ratio=0.0
+FlowStats
+  fixed_step: emit_init_re=0, emit_init_im=0, emit_noninit_re=0, emit_noninit_im=0, keep_noninit_re=0, keep_noninit_im=0, drop_noninit_re=0, drop_noninit_im=0
+  predicted:  emit_init_re=-5818955387832348716, emit_init_im=2362159997095316851, emit_noninit_re=-8838354827847662059, emit_noninit_im=-8308475465396487481, keep_noninit_re=5295886877526118467, keep_noninit_im=-5927931812331925400, drop_noninit_re=6901478432663206234, drop_noninit_im=-2380543665729369559
+  true_step:  emit_init_re=-3037985101966583156, emit_init_im=-1093266536219619696, emit_noninit_re=3303173210822819826, emit_noninit_im=-7462996523092492348, keep_noninit_re=8435821693834391284, keep_noninit_im=3952283210580061708, drop_noninit_re=-5132585066881416672, drop_noninit_im=7031464330824650839
+  apply:      total_re=2970629786425737484, total_im=-4933985646488682523, diag_re=-1670264918564764630, diag_im=-8197260143460510686, new_states=2162018715073680972, removed_states=7768450159949247296
+  mask:       total=1.0746843256696406e17, kept=1.0640708341045053e17, kept_frac=0.9901240845226601
+  snapshot:   t=150.0, diag_re=9976528, diag_im=16, n_states=391366, state_mem_bytes=130095219116
+
+t = 160.0
+wall_s = 552.592
+VCABMStepStats
+  totals: attempts=713, accepts=696, rejects=17, reject_ratio=0.023842917251051893, accepted_h_sum=160.0, attempts_per_time=4.45625
+  last:   h=0.0851004423795132, E=0.8379705425139928, E_raw=0.8379705425139928, guard_relax=1.0, k=3, guard_active=false
+  window: attempts=36, accepts=36, rejects=0, accepted_h_sum=3.468103161135255, attempts_per_time=10.3803140585402, t_start=156.53189683886438
+  guard:  active=false, hold_until=-Inf, cooldown_until=-Inf, attempts=0, accepts=0, rejects=0, last_attempts_per_time=10.454615793984251, last_reject_ratio=0.0
+FlowStats
+  fixed_step: emit_init_re=0, emit_init_im=0, emit_noninit_re=0, emit_noninit_im=0, keep_noninit_re=0, keep_noninit_im=0, drop_noninit_re=0, drop_noninit_im=0
+  predicted:  emit_init_re=7919023281699505018, emit_init_im=1351607709158956784, emit_noninit_re=-9206331057538695535, emit_noninit_im=3510773641289342393, keep_noninit_re=-2025923455339871338, keep_noninit_im=5303589093710209903, drop_noninit_re=-385214279469035795, drop_noninit_im=-1792815756376246860
+  true_step:  emit_init_re=875333847639663046, emit_init_im=-7791652795561311570, emit_noninit_re=5489180764909639696, emit_noninit_im=5355524182875688742, keep_noninit_re=-454464158779531015, keep_noninit_im=2621076685373731689, drop_noninit_re=5945166910812885387, drop_noninit_im=2734447276405635713
+  apply:      total_re=-2491861420620906927, total_im=-7735191073471059845, diag_re=-3192869898135266049, diag_im=6179941367752811328, new_states=-3451783059360280251, removed_states=1975363101686420132
+  mask:       total=2.5792423816071373e18, kept=2.5537700018508124e18, kept_frac=0.9901240845226601
+  snapshot:   t=160.0, diag_re=9972660, diag_im=32, n_states=421447, state_mem_bytes=140088428126
+
+t = 170.0
+wall_s = 659.321
+VCABMStepStats
+  totals: attempts=828, accepts=811, rejects=17, reject_ratio=0.020531400966183576, accepted_h_sum=170.0, attempts_per_time=4.870588235294117
+  last:   h=0.013261946977564776, E=0.20883837262159638, E_raw=0.20883837262159638, guard_relax=1.0, k=3, guard_active=false
+  window: attempts=39, accepts=39, rejects=0, accepted_h_sum=3.342550253443664, attempts_per_time=11.667737817799518, t_start=166.65744974655635
+  guard:  active=false, hold_until=-Inf, cooldown_until=-Inf, attempts=0, accepts=0, rejects=0, last_attempts_per_time=11.413850799943324, last_reject_ratio=0.0
+FlowStats
+  fixed_step: emit_init_re=0, emit_init_im=0, emit_noninit_re=0, emit_noninit_im=0, keep_noninit_re=0, keep_noninit_im=0, drop_noninit_re=0, drop_noninit_im=0
+  predicted:  emit_init_re=5589118023692038739, emit_init_im=-4454903127604134356, emit_noninit_re=408983503586133579, emit_noninit_im=-7975152977603538704, keep_noninit_re=6718069292971956841, keep_noninit_im=-1841070266921824462, drop_noninit_re=9201601366452685347, drop_noninit_im=-6134090005610818337
+  true_step:  emit_init_re=2561268269641794316, emit_init_im=-2532226356375956054, emit_noninit_re=2613129841864730176, emit_noninit_im=-594628126950344189, keep_noninit_re=7539604263001018142, keep_noninit_im=7565608227840908171, drop_noninit_re=-4889946730167135863, drop_noninit_im=-8160241661102964374
+  apply:      total_re=-4464441873773467571, total_im=-1177145026209907179, diag_re=-2841901260408198504, diag_im=744640236391059032, new_states=-9055817129808467958, removed_states=-7931517780654569833
+  mask:       total=6.1901817158571295e19, kept=6.12904800444195e19, kept_frac=0.9901240845226601
+  snapshot:   t=170.0, diag_re=9969321, diag_im=122, n_states=471202, state_mem_bytes=156617536676
+
+t = 180.0
+wall_s = 779.885
+VCABMStepStats
+  totals: attempts=962, accepts=945, rejects=17, reject_ratio=0.017671517671517672, accepted_h_sum=180.0, attempts_per_time=5.344444444444444
+  last:   h=0.017777154503562542, E=0.2815588104342246, E_raw=0.2815588104342246, guard_relax=1.0, k=3, guard_active=false
+  window: attempts=41, accepts=41, rejects=0, accepted_h_sum=3.2317618895781774, attempts_per_time=12.686578219830263, t_start=176.76823811042215
+  guard:  active=false, hold_until=-Inf, cooldown_until=-Inf, attempts=0, accepts=0, rejects=0, last_attempts_per_time=12.472186795368165, last_reject_ratio=0.0
+FlowStats
+  fixed_step: emit_init_re=0, emit_init_im=0, emit_noninit_re=0, emit_noninit_im=0, keep_noninit_re=0, keep_noninit_im=0, drop_noninit_re=0, drop_noninit_im=0
+  predicted:  emit_init_re=5011624052641519674, emit_init_im=3762789379758079127, emit_noninit_re=-8631139987642100568, emit_noninit_im=-6936230725389391426, keep_noninit_re=-4787033632058741790, keep_noninit_im=-7292198258704670600, drop_noninit_re=-522496089650184687, drop_noninit_im=355792455016780502
+  true_step:  emit_init_re=6130206250273865673, emit_init_im=-5433200331894303344, emit_noninit_re=7374883983625096091, emit_noninit_im=4175669026901317912, keep_noninit_re=-3516938425070823072, keep_noninit_im=-2892843268913711121, drop_noninit_re=-6678257081753982006, drop_noninit_im=7068384944333940602
+  apply:      total_re=3533859471693805270, total_im=8642007518381345087, diag_re=5581346045041419712, diag_im=-575378400324134738, new_states=4021317769111424149, removed_states=-5888985998614158680
+  mask:       total=1.485643611805711e21, kept=1.4709715210660678e21, kept_frac=0.9901240845226601
+  snapshot:   t=180.0, diag_re=9965114, diag_im=229, n_states=505799, state_mem_bytes=168116547934
+
+t = 190.0
+wall_s = 917.695
+VCABMStepStats
+  totals: attempts=1109, accepts=1092, rejects=17, reject_ratio=0.015329125338142471, accepted_h_sum=190.0, attempts_per_time=5.836842105263158
+  last:   h=0.048831461851420954, E=0.6571107650140622, E_raw=0.6571107650140622, guard_relax=1.0, k=3, guard_active=false
+  window: attempts=45, accepts=45, rejects=0, accepted_h_sum=3.202758534704449, attempts_per_time=14.050387974113262, t_start=186.79724146529526
+  guard:  active=false, hold_until=-Inf, cooldown_until=-Inf, attempts=0, accepts=0, rejects=0, last_attempts_per_time=13.963934163325257, last_reject_ratio=0.0
+FlowStats
+  fixed_step: emit_init_re=0, emit_init_im=0, emit_noninit_re=0, emit_noninit_im=0, keep_noninit_re=0, keep_noninit_im=0, drop_noninit_re=0, drop_noninit_im=0
+  predicted:  emit_init_re=-8848231252570907817, emit_init_im=-1926775254353865687, emit_noninit_re=-4233174892605075873, emit_noninit_im=-448840745959471410, keep_noninit_re=-4208342727152184579, keep_noninit_im=-8992061545526131560, drop_noninit_re=5906837922105080526, drop_noninit_im=8539018920402691850
+  true_step:  emit_init_re=-449002583104153465, emit_init_im=-1269599449496413705, emit_noninit_re=-7470225130092925997, emit_noninit_im=7982336277083894948, keep_noninit_re=7827198166848313215, keep_noninit_im=4358737840909136089, drop_noninit_re=5742526701290371464, drop_noninit_im=3620542000628636316
+  apply:      total_re=-7421093047896638497, total_im=4493995630347210022, diag_re=4825096565027184614, diag_im=4637662465930317867, new_states=4277906090126472533, removed_states=6238288622936606251
+  mask:       total=3.5655446683337064e22, kept=3.5303316505585628e22, kept_frac=0.9901240845226601
+  snapshot:   t=190.0, diag_re=9959263, diag_im=194, n_states=555193, state_mem_bytes=184616414114
+
+t = 200.0
+wall_s = 1044.601
+VCABMStepStats
+  totals: attempts=1236, accepts=1219, rejects=17, reject_ratio=0.013754045307443365, accepted_h_sum=200.0, attempts_per_time=6.18
+  last:   h=0.05514269095854729, E=0.6088188598366566, E_raw=0.7610235747958208, guard_relax=1.25, k=3, guard_active=true
+  window: attempts=36, accepts=36, rejects=0, accepted_h_sum=3.112417735082775, attempts_per_time=11.566570770437593, t_start=196.8875822649177
+  guard:  active=true, hold_until=221.85163878665549, cooldown_until=-Inf, attempts=96, accepts=96, rejects=0, last_attempts_per_time=11.914351354217116, last_reject_ratio=0.0
+FlowStats
+  fixed_step: emit_init_re=0, emit_init_im=0, emit_noninit_re=0, emit_noninit_im=0, keep_noninit_re=0, keep_noninit_im=0, drop_noninit_re=0, drop_noninit_im=0
+  predicted:  emit_init_re=9003378822812321151, emit_init_im=9097626116635875835, emit_noninit_re=9084267019735784380, emit_noninit_im=7674566170682225487, keep_noninit_re=-8766505083104332858, keep_noninit_im=5551451791887457887, drop_noninit_re=-5809842459154523811, drop_noninit_im=2022269278859528466
+  true_step:  emit_init_re=7670682079209357002, emit_init_im=6423101359505173967, emit_noninit_re=5182037614865597007, emit_noninit_im=7108629912917944526, keep_noninit_re=3385315267264344889, keep_noninit_im=-6070756260438033192, drop_noninit_re=8693432315002014738, drop_noninit_im=-5340712353460514720
+  apply:      total_re=6361207587576026168, total_im=-2824569313924265255, diag_re=5121853118395089671, diag_im=623434740070319427, new_states=-8010718279221900207, removed_states=2144974360802138427
+  mask:       total=8.557307204000895e23, kept=8.47279596134055e23, kept_frac=0.9901240845226602
+  snapshot:   t=200.0, diag_re=9952653, diag_im=509, n_states=622559, state_mem_bytes=207049107982
+
+t = 210.0
+wall_s = 1211.691
+VCABMStepStats
+  totals: attempts=1382, accepts=1361, rejects=21, reject_ratio=0.015195369030390739, accepted_h_sum=210.0, attempts_per_time=6.580952380952381
+  last:   h=0.03261962967025056, E=0.6163005230676818, E_raw=0.7703756538346023, guard_relax=1.25, k=3, guard_active=true
+  window: attempts=52, accepts=48, rejects=4, accepted_h_sum=2.990020879226162, attempts_per_time=17.3911829048692, t_start=207.00997912077366
+  guard:  active=true, hold_until=221.85163878665549, cooldown_until=-Inf, attempts=242, accepts=238, rejects=4, last_attempts_per_time=13.206721981691855, last_reject_ratio=0.0
+FlowStats
+  fixed_step: emit_init_re=0, emit_init_im=0, emit_noninit_re=0, emit_noninit_im=0, keep_noninit_re=0, keep_noninit_im=0, drop_noninit_re=0, drop_noninit_im=0
+  predicted:  emit_init_re=-5279837137019401662, emit_init_im=-3017902085253604848, emit_noninit_re=-3338520410855454311, emit_noninit_im=-277852640722145267, keep_noninit_re=-7481937183698524355, keep_noninit_im=4107634489332120393, drop_noninit_re=8137733569967784726, drop_noninit_im=-6805769528500004282
+  true_step:  emit_init_re=-371070836071420119, emit_init_im=6580480038447760157, emit_noninit_re=-4758305759192149975, emit_noninit_im=4586421246644754034, keep_noninit_re=7460590119506457057, keep_noninit_im=1875802339163612911, drop_noninit_re=5728190749243282777, drop_noninit_im=950112032914561636
+  apply:      total_re=5095029512148126717, total_im=5997312760655831654, diag_re=-6202733674484745891, diag_im=-3484310312021885643, new_states=-7789797964229720965, removed_states=-3860847561877278046
+  mask:       total=2.0537537289602147e25, kept=2.033471030721732e25, kept_frac=0.9901240845226602
+  snapshot:   t=210.0, diag_re=9944779, diag_im=235, n_states=935848, state_mem_bytes=311127399632
+
+t = 220.0
+wall_s = 1448.715
+VCABMStepStats
+  totals: attempts=1571, accepts=1550, rejects=21, reject_ratio=0.01336728198599618, accepted_h_sum=220.0, attempts_per_time=7.140909090909091
+  last:   h=0.008846298874999547, E=0.1352625463929788, E_raw=0.16907818299122349, guard_relax=1.25, k=3, guard_active=true
+  window: attempts=38, accepts=38, rejects=0, accepted_h_sum=2.9726328556007875, attempts_per_time=12.7832806289561, t_start=217.02736714439925
+  guard:  active=true, hold_until=221.85163878665549, cooldown_until=-Inf, attempts=431, accepts=427, rejects=4, last_attempts_per_time=20.7445183002745, last_reject_ratio=0.0
+FlowStats
+  fixed_step: emit_init_re=0, emit_init_im=0, emit_noninit_re=0, emit_noninit_im=0, keep_noninit_re=0, keep_noninit_im=0, drop_noninit_re=0, drop_noninit_im=0
+  predicted:  emit_init_re=2411117227500749503, emit_init_im=1357326248751687585, emit_noninit_re=-6337513565692270677, emit_noninit_im=-6668463377331494822, keep_noninit_re=4900948328331211832, keep_noninit_im=6349507375423137534, drop_noninit_re=-7608579131578089133, drop_noninit_im=2682227979385847670
+  true_step:  emit_init_re=-8905700065714554073, emit_init_im=-8089175740639715957, emit_noninit_re=-3518873778353825243, emit_noninit_im=-606354522783223613, keep_noninit_re=-5413277868940267261, keep_noninit_im=8125767992507605935, drop_noninit_re=8349369465872109572, drop_noninit_im=4355944716239918227
+  apply:      total_re=-6846500224411998061, total_im=-3638446333936458353, diag_re=-1291655597957509848, diag_im=8610272880022502476, new_states=-2487710404417410597, removed_states=-426621116506826240
+  mask:       total=4.9290089495045156e26, kept=4.880330473732157e26, kept_frac=0.9901240845226601
+  snapshot:   t=220.0, diag_re=9952647, diag_im=66, n_states=1223467, state_mem_bytes=406679534822
+
+t = 229.99969948470692
+wall_s = 1631.361
+VCABMStepStats
+  totals: attempts=1726, accepts=1702, rejects=24, reject_ratio=0.013904982618771726, accepted_h_sum=229.99969948470692, attempts_per_time=7.504357631192317
+  last:   h=0.06194378033337742, E=0.9477647218662434, E_raw=0.9477647218662434, guard_relax=1.0, k=3, guard_active=false
+  window: attempts=46, accepts=45, rejects=1, accepted_h_sum=2.913616387699281, attempts_per_time=15.787939755625693, t_start=227.08608309700796
+  guard:  active=false, hold_until=-Inf, cooldown_until=221.9103448008499, attempts=462, accepts=458, rejects=4, last_attempts_per_time=14.705011422126184, last_reject_ratio=0.0
+FlowStats
+  fixed_step: emit_init_re=0, emit_init_im=0, emit_noninit_re=0, emit_noninit_im=0, keep_noninit_re=0, keep_noninit_im=0, drop_noninit_re=0, drop_noninit_im=0
+  predicted:  emit_init_re=2526581238888953169, emit_init_im=-4317658177378589407, emit_noninit_re=-4526372986937701686, emit_noninit_im=5977575607430062455, keep_noninit_re=6942295437691944593, keep_noninit_im=4814224420478890065, drop_noninit_re=1861541579221588275, drop_noninit_im=9033239284131661688
+  true_step:  emit_init_re=7624127307364938964, emit_init_im=8773967035451895079, emit_noninit_re=7780749688056314976, emit_noninit_im=3894235526912169192, keep_noninit_re=-791460338599384699, keep_noninit_im=-7895752990622523871, drop_noninit_re=-2529317629874243587, drop_noninit_im=-6137791252499288678
+  apply:      total_re=1704691277497793851, total_im=4911008354072772544, diag_re=5893753796438855411, diag_im=3732364309734991921, new_states=-4364817484889177737, removed_states=8207837277545723572
+  mask:       total=1.1829621478810836e28, kept=1.1712793136957177e28, kept_frac=0.9901240845226602
+  snapshot:   t=229.99969948470692, diag_re=9959579, diag_im=342, n_states=1243494, state_mem_bytes=413366669292
+
+t = 240.0
+wall_s = 1793.401
+VCABMStepStats
+  totals: attempts=1854, accepts=1830, rejects=24, reject_ratio=0.012944983818770227, accepted_h_sum=240.0, attempts_per_time=7.725
+  last:   h=0.02140046282360686, E=0.2944138590017229, E_raw=0.3680173237521536, guard_relax=1.25, k=3, guard_active=true
+  window: attempts=33, accepts=33, rejects=0, accepted_h_sum=2.8091576756178536, attempts_per_time=11.747293605632832, t_start=237.19084232438186
+  guard:  active=true, hold_until=262.10578801604134, cooldown_until=221.9103448008499, attempts=556, accepts=552, rejects=4, last_attempts_per_time=11.99593874542261, last_reject_ratio=0.0
+FlowStats
+  fixed_step: emit_init_re=0, emit_init_im=0, emit_noninit_re=0, emit_noninit_im=0, keep_noninit_re=0, keep_noninit_im=0, drop_noninit_re=0, drop_noninit_im=0
+  predicted:  emit_init_re=5297717512205845630, emit_init_im=7056668185171171850, emit_noninit_re=2047512755752886188, emit_noninit_im=-4112138011354920712, keep_noninit_re=594393841220903618, keep_noninit_im=4860921649236053484, drop_noninit_re=7783509753899234438, drop_noninit_im=-4563186065354746044
+  true_step:  emit_init_re=-1488385360337367987, emit_init_im=7661024040040423105, emit_noninit_re=2270551776256442329, emit_noninit_im=1227932277344286532, keep_noninit_re=-548304052675488515, keep_noninit_im=-5030631037845054792, drop_noninit_re=-5363390895852984883, drop_noninit_im=266962529693467429
+  apply:      total_re=4019102512527765044, total_im=7183736055489240834, diag_re=-6123861475143894717, diag_im=-2656976934907952034, new_states=5924844804917058758, removed_states=-5926090149707701167
+  mask:       total=2.8391091549146007e29, kept=2.8110703528697224e29, kept_frac=0.9901240845226602
+  snapshot:   t=240.0, diag_re=9969927, diag_im=285, n_states=1257363, state_mem_bytes=418004156982
+
+t = 250.0
+wall_s = 1955.561
+VCABMStepStats
+  totals: attempts=1978, accepts=1954, rejects=24, reject_ratio=0.012133468149646108, accepted_h_sum=250.0, attempts_per_time=7.912
+  last:   h=0.04781874630626248, E=0.538414234434946, E_raw=0.6730177930436825, guard_relax=1.25, k=3, guard_active=true
+  window: attempts=32, accepts=32, rejects=0, accepted_h_sum=2.7096787374646683, attempts_per_time=11.80951806483932, t_start=247.29032126253537
+  guard:  active=true, hold_until=262.10578801604134, cooldown_until=221.9103448008499, attempts=680, accepts=676, rejects=4, last_attempts_per_time=11.668168961378138, last_reject_ratio=0.0
+FlowStats
+  fixed_step: emit_init_re=0, emit_init_im=0, emit_noninit_re=0, emit_noninit_im=0, keep_noninit_re=0, keep_noninit_im=0, drop_noninit_re=0, drop_noninit_im=0
+  predicted:  emit_init_re=-1981988223026938452, emit_init_im=3339339780722146008, emit_noninit_re=-6199926083059019448, emit_noninit_im=-6457591903970385968, keep_noninit_re=-4181291884407641817, keep_noninit_im=5981655139407970245, drop_noninit_re=2336793356486254123, drop_noninit_im=1163998873743361994
+  true_step:  emit_init_re=1172239499321898662, emit_init_im=-602863776125376319, emit_noninit_re=-846989590973626749, emit_noninit_im=-7423113491156201188, keep_noninit_re=5287446809498050129, keep_noninit_im=8392063607685544563, drop_noninit_re=405827015495413336, drop_noninit_im=6407100712643246054
+  apply:      total_re=4224739932118441128, total_im=6388968668355810396, diag_re=601277186222926167, diag_im=-8427214216662194077, new_states=-5377677271666982807, removed_states=5347788996691585982
+  mask:       total=6.813861971795042e30, kept=6.746568846887333e30, kept_frac=0.99012408452266
+  snapshot:   t=250.0, diag_re=9972147, diag_im=185, n_states=1276230, state_mem_bytes=424298132652
+
+t = 260.0
+wall_s = 2128.067
+VCABMStepStats
+  totals: attempts=2103, accepts=2078, rejects=25, reject_ratio=0.011887779362815026, accepted_h_sum=260.0, attempts_per_time=8.088461538461539
+  last:   h=0.05803455456361917, E=0.7577211881664977, E_raw=0.9471514852081221, guard_relax=1.25, k=3, guard_active=true
+  window: attempts=34, accepts=33, rejects=1, accepted_h_sum=2.653500305980956, attempts_per_time=12.813264020872518, t_start=257.34649969401903
+  guard:  active=true, hold_until=262.10578801604134, cooldown_until=221.9103448008499, attempts=805, accepts=800, rejects=5, last_attempts_per_time=11.970879004553698, last_reject_ratio=0.0
+FlowStats
+  fixed_step: emit_init_re=0, emit_init_im=0, emit_noninit_re=0, emit_noninit_im=0, keep_noninit_re=0, keep_noninit_im=0, drop_noninit_re=0, drop_noninit_im=0
+  predicted:  emit_init_re=7772514868481756412, emit_init_im=6357178442493287659, emit_noninit_re=-1224273403739679731, emit_noninit_im=-7408253105612874998, keep_noninit_re=-8117284857235397097, keep_noninit_im=-4014229243885121176, drop_noninit_re=742808334541569539, drop_noninit_im=-8957515177578445427
+  true_step:  emit_init_re=-8759740163693899748, emit_init_im=3978013446700512753, emit_noninit_re=-1881006109657115736, emit_noninit_im=6312716949346660153, keep_noninit_re=-2228485088013406494, keep_noninit_im=-1504658226351997135, drop_noninit_re=-8706895701819508935, drop_noninit_im=6196464513761464353
+  apply:      total_re=9160038002294717884, total_im=5761295450863017625, diag_re=-4016091604359338994, diag_im=661043610912409852, new_states=62953995959384292, removed_states=-780272595368785792
+  mask:       total=1.63532687323081e32, kept=1.61917652325296e32, kept_frac=0.99012408452266
+  snapshot:   t=260.0, diag_re=9972134, diag_im=102, n_states=1374626, state_mem_bytes=457000744612
+
+t = 270.0
+wall_s = 2362.451
+VCABMStepStats
+  totals: attempts=2274, accepts=2247, rejects=27, reject_ratio=0.011873350923482849, accepted_h_sum=270.0, attempts_per_time=8.422222222222222
+  last:   h=0.027769418041941663, E=0.3961145266803622, E_raw=0.49514315835045275, guard_relax=1.25, k=2, guard_active=true
+  window: attempts=34, accepts=34, rejects=0, accepted_h_sum=2.6053095903494525, attempts_per_time=13.05027246126229, t_start=267.3946904096504
+  guard:  active=true, hold_until=297.3946904096504, cooldown_until=262.1073437425073, attempts=872, accepts=867, rejects=5, last_attempts_per_time=19.250047169605676, last_reject_ratio=0.0
+FlowStats
+  fixed_step: emit_init_re=0, emit_init_im=0, emit_noninit_re=0, emit_noninit_im=0, keep_noninit_re=0, keep_noninit_im=0, drop_noninit_re=0, drop_noninit_im=0
+  predicted:  emit_init_re=2072916106466339516, emit_init_im=4998330030162484982, emit_noninit_re=7510926457667220957, emit_noninit_im=6669366202386523090, keep_noninit_re=8099348237155766834, keep_noninit_im=-4107781484695151774, drop_noninit_re=-619344044711681361, drop_noninit_im=6380564622631936885
+  true_step:  emit_init_re=-7319579117848833205, emit_init_im=3238602352264545038, emit_noninit_re=-8250658484351300997, emit_noninit_im=3931254194643390560, keep_noninit_re=1856590108807123047, keep_noninit_im=781690714971160250, drop_noninit_re=-6051312032862997765, drop_noninit_im=1141195740598702150
+  apply:      total_re=-1520016829441462194, total_im=9143882304745551725, diag_re=-4152478136076391899, diag_im=-2581697411811714948, new_states=1510895903025342609, removed_states=-279798215141288461
+  mask:       total=3.924784495753944e33, kept=3.886023655807104e33, kept_frac=0.9901240845226601
+  snapshot:   t=270.0, diag_re=9973229, diag_im=325, n_states=1475296, state_mem_bytes=490444325312
+
+t = 280.0
+wall_s = 2574.83
+VCABMStepStats
+  totals: attempts=2423, accepts=2396, rejects=27, reject_ratio=0.011143210895583986, accepted_h_sum=280.0, attempts_per_time=8.653571428571428
+  last:   h=0.06744602115446696, E=0.9191984232253922, E_raw=1.1489980290317403, guard_relax=1.25, k=3, guard_active=true
+  window: attempts=37, accepts=37, rejects=0, accepted_h_sum=2.533009288338367, attempts_per_time=14.607131592585551, t_start=277.4669907116617
+  guard:  active=true, hold_until=297.3946904096504, cooldown_until=262.1073437425073, attempts=1021, accepts=1016, rejects=5, last_attempts_per_time=14.603491205391329, last_reject_ratio=0.0
+FlowStats
+  fixed_step: emit_init_re=0, emit_init_im=0, emit_noninit_re=0, emit_noninit_im=0, keep_noninit_re=0, keep_noninit_im=0, drop_noninit_re=0, drop_noninit_im=0
+  predicted:  emit_init_re=-5590245665936758936, emit_init_im=-9167287792067236205, emit_noninit_re=-4205205753081907694, emit_noninit_im=-5955907806109379935, keep_noninit_re=-8529827119066435204, keep_noninit_im=-6353035264135878501, drop_noninit_re=3582487000629275668, drop_noninit_im=5559598353490095435
+  true_step:  emit_init_re=8797541908723268201, emit_init_im=3939480159510876491, emit_noninit_re=4898381186374147394, emit_noninit_im=2116380302893604378, keep_noninit_re=7664674463952065420, keep_noninit_im=313833085598294756, drop_noninit_re=2342463800964554286, drop_noninit_im=8941953700659287760
+  apply:      total_re=413084240823971233, total_im=-1907753570621372500, diag_re=-7425754897285662259, diag_im=-6620505662352503717, new_states=-631986474810857487, removed_states=-6715157163390921760
+  mask:       total=9.419482789809467e34, kept=9.32645677393705e34, kept_frac=0.99012408452266
+  snapshot:   t=280.0, diag_re=9973278, diag_im=506, n_states=1497121, state_mem_bytes=497694808562
+
+t = 289.99796058702475
+wall_s = 3100.143
+VCABMStepStats
+  totals: attempts=2711, accepts=2674, rejects=37, reject_ratio=0.01364810033198082, accepted_h_sum=289.99796058702475, attempts_per_time=9.348341603893669
+  last:   h=0.02549877443843673, E=0.9261958007659205, E_raw=1.1577447509574006, guard_relax=1.25, k=3, guard_active=true
+  window: attempts=97, accepts=97, rejects=0, accepted_h_sum=2.4717653901092245, attempts_per_time=39.243206652276044, t_start=287.52619519691433
+  guard:  active=true, hold_until=297.3946904096504, cooldown_until=262.1073437425073, attempts=1309, accepts=1294, rejects=15, last_attempts_per_time=30.6544074358636, last_reject_ratio=0.06493506493506493
+FlowStats
+  fixed_step: emit_init_re=0, emit_init_im=0, emit_noninit_re=0, emit_noninit_im=0, keep_noninit_re=0, keep_noninit_im=0, drop_noninit_re=0, drop_noninit_im=0
+  predicted:  emit_init_re=-5038687466515478550, emit_init_im=1346021874900953472, emit_noninit_re=-8691217705417900990, emit_noninit_im=4632165243051296241, keep_noninit_re=-1801666046789105355, keep_noninit_im=-4898893749584682951, drop_noninit_re=-6254032353445289864, drop_noninit_im=4303151967795441982
+  true_step:  emit_init_re=8226820998553267300, emit_init_im=2313803459713284510, emit_noninit_re=6880684030722358897, emit_noninit_im=-4547104951682151779, keep_noninit_re=-515253602245696027, keep_noninit_im=7531994054359070308, drop_noninit_re=878899002020527444, drop_noninit_im=-6754040068691712345
+  apply:      total_re=-8532722293934095235, total_im=-8892597547493820937, diag_re=6249323202239608328, diag_im=7128560766925875321, new_states=3279068678250423946, removed_states=4856924742004258590
+  mask:       total=2.260675869554272e36, kept=2.238349625744892e36, kept_frac=0.99012408452266
+  snapshot:   t=289.99796058702475, diag_re=9971853, diag_im=487, n_states=2532853, state_mem_bytes=842168968346
+
+t = 300.0
+wall_s = 3620.121
+VCABMStepStats
+  totals: attempts=3010, accepts=2971, rejects=39, reject_ratio=0.012956810631229236, accepted_h_sum=300.0, attempts_per_time=10.033333333333333
+  last:   h=0.02496896727410558, E=0.6414835197791279, E_raw=0.8018543997239098, guard_relax=1.25, k=3, guard_active=true
+  window: attempts=69, accepts=69, rejects=0, accepted_h_sum=2.431305308812368, attempts_per_time=28.379817108903026, t_start=297.5686946911876
+  guard:  active=true, hold_until=327.5686946911876, cooldown_until=297.42444163337666, attempts=1601, accepts=1586, rejects=15, last_attempts_per_time=28.348386608416384, last_reject_ratio=0.014084507042253521
+FlowStats
+  fixed_step: emit_init_re=0, emit_init_im=0, emit_noninit_re=0, emit_noninit_im=0, keep_noninit_re=0, keep_noninit_im=0, drop_noninit_re=0, drop_noninit_im=0
+  predicted:  emit_init_re=8198709319595858423, emit_init_im=-4588963149796234231, emit_noninit_re=-5675040119225083016, emit_noninit_im=491501390973864950, keep_noninit_re=-6346496975519665070, keep_noninit_im=-6892985547775117959, drop_noninit_re=-2522823893010831114, drop_noninit_im=-7404817215166600737
+  true_step:  emit_init_re=-5470480845526135731, emit_init_im=191050811990194376, emit_noninit_re=-884279926049912957, emit_noninit_im=1549945601885675835, keep_noninit_re=6080657619812606762, keep_noninit_im=-3699583432477835516, drop_noninit_re=2646831974782785040, drop_noninit_im=3923735014784883935
+  apply:      total_re=-1871150243612951284, total_im=7938587744662926646, diag_re=2409804264074182103, diag_im=5064761742835043191, new_states=4910671983172041098, removed_states=5885729365844920356
+  mask:       total=5.425622086930253e37, kept=5.372039101787741e37, kept_frac=0.99012408452266
+  snapshot:   t=300.0, diag_re=9981289, diag_im=514, n_states=2581819, state_mem_bytes=858532104326
+
+3619.448982 seconds (2.33 G allocations: 425.455 GiB, 0.55% gc time, 0.52% compilation time: 1% of which was recompilation)
+3621.164858 seconds (2.31 G allocations: 422.498 GiB, 0.59% gc time, 0.53% compilation time: 1% of which was recompilation)
+3619.460365 seconds (2.32 G allocations: 424.501 GiB, 0.60% gc time, 0.53% compilation time: 1% of which was recompilation)
+3620.055413 seconds (2.36 G allocations: 428.932 GiB, 0.59% gc time, 0.53% compilation time: 1% of which was recompilation)
+3618.121389 seconds (2.31 G allocations: 422.758 GiB, 0.56% gc time, 0.53% compilation time: 1% of which was recompilation)
+3618.918988 seconds (2.42 G allocations: 437.317 GiB, 0.59% gc time, 0.53% compilation time: 1% of which was recompilation)
+3615.942394 seconds (2.37 G allocations: 431.000 GiB, 0.55% gc time, 0.53% compilation time: 1% of which was recompilation)
+3617.509316 seconds (2.33 G allocations: 425.950 GiB, 0.56% gc time, 0.53% compilation time: 1% of which was recompilation)
+3620.624417 seconds (2.34 G allocations: 426.546 GiB, 0.55% gc time, 0.53% compilation time: 1% of which was recompilation)
+3620.620639 seconds (2.30 G allocations: 421.471 GiB, 0.54% gc time, 0.53% compilation time: 1% of which was recompilation)
+3622.337089 seconds (2.38 G allocations: 433.387 GiB, 0.59% gc time, 0.53% compilation time: 1% of which was recompilation)
+3620.761615 seconds (2.40 G allocations: 434.486 GiB, 0.59% gc time, 0.54% compilation time: 1% of which was recompilation)
+3624.609851 seconds (2.39 G allocations: 433.158 GiB, 0.60% gc time, 0.53% compilation time: 1% of which was recompilation)
+3622.552234 seconds (2.36 G allocations: 429.532 GiB, 0.56% gc time, 0.52% compilation time: 1% of which was recompilation)
+3623.597492 seconds (2.37 G allocations: 431.755 GiB, 0.61% gc time, 0.52% compilation time: 1% of which was recompilation)
+3618.524697 seconds (2.39 G allocations: 433.319 GiB, 0.58% gc time, 0.53% compilation time: 1% of which was recompilation)
+3619.644687 seconds (2.39 G allocations: 434.164 GiB, 0.57% gc time, 0.54% compilation time: 1% of which was recompilation)
+3618.618137 seconds (2.38 G allocations: 432.590 GiB, 0.58% gc time, 0.53% compilation time: 1% of which was recompilation)
+3618.685238 seconds (2.34 G allocations: 426.949 GiB, 0.56% gc time, 0.54% compilation time: 1% of which was recompilation)
+3623.435478 seconds (2.39 G allocations: 433.948 GiB, 0.59% gc time, 0.52% compilation time: 1% of which was recompilation)
+3621.072184 seconds (2.40 G allocations: 434.259 GiB, 0.61% gc time, 0.53% compilation time: 1% of which was recompilation)
+3620.308541 seconds (2.36 G allocations: 430.203 GiB, 0.58% gc time, 0.53% compilation time: 1% of which was recompilation)
+3621.851991 seconds (2.34 G allocations: 428.466 GiB, 0.56% gc time, 0.53% compilation time: 1% of which was recompilation)
+3617.608363 seconds (2.37 G allocations: 430.463 GiB, 0.60% gc time, 0.54% compilation time: 1% of which was recompilation)
