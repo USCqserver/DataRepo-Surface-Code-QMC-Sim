@@ -1,4 +1,4 @@
-[![Paper](https://img.shields.io/badge/paper-arXiv%3A2502.18929-B31B1B.svg)](https://arxiv.org/abs/2502.18929)
+[![Paper](https://img.shields.io/badge/paper-arXiv%3A2606.19848-B31B1B.svg)](https://arxiv.org/abs/2606.19848)
 
 # Data Repository for "QMCtwin: Master-Equation Simulation of Syndrome Statistics Beyond Pauli Noise"
 
